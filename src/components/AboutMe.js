@@ -49,7 +49,7 @@ const useStyles =makeStyles(theme =>({
   function AboutMe() {
 
     const classes = useStyles();
-    const [Aopen, setAOpen] = React.useState(false);
+    const [Aopen, setAOpen] = React.useState(true);
     const [Bopen, setBOpen] = React.useState(false);
 
     const handleClickA= () => setAOpen(!Aopen);

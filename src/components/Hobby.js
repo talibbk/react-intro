@@ -28,7 +28,7 @@ const useStyles = makeStyles(theme => ({
         color: '#fff',
     },
     card: {
-        maxWidth: 345,
+        maxWidth: 400,
         marginTop: theme.spacing(3),
         padding: theme.spacing(2),
         backgroundColor: '#424242',
@@ -56,7 +56,7 @@ const useStyles = makeStyles(theme => ({
                             <CardMedia
                             component="img"
                             alt="Contemplative Reptile"
-                            height="140"
+                            height="200"
                             image="/img/gym.jpg"
                             title="Contemplative Reptile"
                             />
@@ -78,7 +78,7 @@ const useStyles = makeStyles(theme => ({
                             <CardMedia
                             component="img"
                             alt="Contemplative Reptile"
-                            height="140"
+                            height="200"
                             image="/img/bike.jpg"
                             title="Contemplative Reptile"
                             />
@@ -100,7 +100,7 @@ const useStyles = makeStyles(theme => ({
                             <CardMedia
                             component="img"
                             alt="Contemplative Reptile"
-                            height="140"
+                            height="200"
                             image="/img/anime.jpg"
                             title="Contemplative Reptile"
                             />

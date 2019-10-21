@@ -31,6 +31,7 @@ const useStyles = makeStyles(theme => ({
     },
   },
   appBar: {
+    backgroundColor:'#222831',
     zIndex: theme.zIndex.drawer + 1,
   },
   menuButton: {
@@ -42,13 +43,17 @@ const useStyles = makeStyles(theme => ({
   toolbar: theme.mixins.toolbar,
   drawerPaper: {
     width: drawerWidth,
-    backgroundColor: theme.palette.background.paper,
+    color:'#fff',
+    backgroundColor: '#424242',
   },
   avatar: {
     margin : 10,
     width: 60,
     height: 60,
-  }
+  },
+  whitener:{
+    color:'#fff',
+},
 }));
 
 function NavBar(props) {
@@ -86,7 +91,7 @@ function NavBar(props) {
           onClick={event => handleListItemClick(event, 1)}
         >
           <ListItemIcon>
-            <WorkIcon />
+            <WorkIcon className={classes.whitener}/>
           </ListItemIcon>
           <ListItemText primary="Work Experience" />
         </ListItem>
@@ -99,7 +104,7 @@ function NavBar(props) {
           onClick={event => handleListItemClick(event, 2)}
         >
           <ListItemIcon>
-            <MailIcon />
+            <MailIcon className={classes.whitener}/>
           </ListItemIcon>
           <ListItemText primary="Contact" />
         </ListItem>
