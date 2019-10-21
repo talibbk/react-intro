@@ -9,7 +9,6 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 
-
 function Hobby(){
 
 
@@ -28,7 +27,7 @@ const useStyles = makeStyles(theme => ({
         color: '#fff',
     },
     card: {
-        maxWidth: 400,
+        maxWidth:'100%',
         marginTop: theme.spacing(3),
         padding: theme.spacing(2),
         backgroundColor: '#424242',
@@ -50,13 +49,13 @@ const useStyles = makeStyles(theme => ({
                 </Paper>
             <div className={classes.root}>
             <Grid container spacing={3}>                       
-                <Grid item xs={4}>
+                <Grid item xs={12} sm={4}>
                     <Card className={classes.card}>
                         <CardActionArea>
                             <CardMedia
                             component="img"
                             alt="Contemplative Reptile"
-                            height="200"
+                            height="250"
                             image="/img/gym.jpg"
                             title="Contemplative Reptile"
                             />
@@ -72,13 +71,13 @@ const useStyles = makeStyles(theme => ({
                     </Card>
                 </Grid>
 
-                <Grid item xs={4}>
+                <Grid item xs={12} sm={4}>
                     <Card className={classes.card}>
                         <CardActionArea>
                             <CardMedia
                             component="img"
                             alt="Contemplative Reptile"
-                            height="200"
+                            height="250"
                             image="/img/bike.jpg"
                             title="Contemplative Reptile"
                             />
@@ -94,13 +93,13 @@ const useStyles = makeStyles(theme => ({
                     </Card>
                 </Grid>
 
-                <Grid item xs={4}>
+                <Grid item xs={12} sm={4}>
                     <Card className={classes.card}>
                         <CardActionArea>
                             <CardMedia
                             component="img"
                             alt="Contemplative Reptile"
-                            height="200"
+                            height="250"
                             image="/img/anime.jpg"
                             title="Contemplative Reptile"
                             />
