@@ -1,7 +1,9 @@
 import React,{ Component } from 'react';
 import NavBar from './components/NavBar';
-import Grid from '@material-ui/core/Grid';
 import AboutMe from './components/AboutMe';
+import Hobby from './components/Hobby';
+import Footer from './components/Footer';
+
 import './App.css';
 
 class App extends Component {
@@ -9,12 +11,10 @@ class App extends Component {
     return (
       
       <React.Fragment>
-        <Grid>
           <NavBar />
-        </Grid>
-        <Grid>
           <AboutMe />
-        </Grid>
+          <Hobby />
+
       </React.Fragment>
 
     );
