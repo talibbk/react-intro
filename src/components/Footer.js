@@ -5,7 +5,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Button from '@material-ui/core/Button';
+import IconButton from '@material-ui/core/IconButton';
 
 function Copyright() {
   return (
@@ -27,7 +27,7 @@ const useStyles = makeStyles(theme => ({
     flexDirection: 'column',
     minHeight: '50vh',
     color:'#fff',
-    backgroundColor:'#222831',
+    backgroundColor:'#333',
   },
   main: {
     marginTop: theme.spacing(8),
@@ -39,13 +39,7 @@ const useStyles = makeStyles(theme => ({
     backgroundColor: 'white',
   },
   button: {
-    margin: theme.spacing(2),
-  },
-  hovereffect:{
-    '&:hover': {
-        backgroundColor: "#999",
-      },
-    borderRadius:'5px',
+    margin: theme.spacing(1),
   },
 
 }));
@@ -60,27 +54,23 @@ export default function StickyFooter() {
         <Typography variant="h2" component="h1" gutterBottom align='center'>
           Social Media
         </Typography>
-        <Button className={classes.button} href='https://www.facebook.com/abdullah.tkb' size='16x' variant="round">
-              <FontAwesomeIcon icon={['fab', 'facebook']} color='white' size='6x' />           
-        </Button>
+
+        <IconButton className={classes.button} href='https://www.facebook.com/abdullah.tkb'>
+          <FontAwesomeIcon icon={['fab', 'facebook']} color='white' size='4x' />           
+        </IconButton>
         
-        <Button className={classes.button}>         
-            <Link color="secondary" href="https://www.facebook.com/abdullah.tkb">
-                <FontAwesomeIcon icon={['fab', 'instagram']} color='white' size='6x' />           
-            </Link>
-        </Button>
+        <IconButton className={classes.button} href='https://www.facebook.com/abdullah.tkb'>
+          <FontAwesomeIcon icon={['fab', 'instagram']} color='white' size='4x' />           
+        </IconButton>
+        
+        <IconButton className={classes.button} href='https://www.facebook.com/abdullah.tkb'>
+          <FontAwesomeIcon icon={['fab', 'linkedin']} color='white' size='4x' />           
+        </IconButton>
 
-        <Button className={classes.button}>    
-            <Link color="inherit" href="https://www.facebook.com/abdullah.tkb">
-                <FontAwesomeIcon icon={['fab', 'linkedin']} color='white' size='6x' />
-            </Link>
-        </Button>
-
-        <Button className={classes.button}>    
-            <Link color="inherit" href="https://github.com/talibbk/react-intro">
-                <FontAwesomeIcon icon={['fab', 'github']} color='white' size='6x' />
-            </Link>
-        </Button>
+        <IconButton className={classes.button} href='https://www.facebook.com/abdullah.tkb'>
+          <FontAwesomeIcon icon={['fab', 'github']} color='white' size='4x' />           
+        </IconButton>
+        
       </Container>
       <footer className={classes.footer}>
         <Container maxWidth="sm">

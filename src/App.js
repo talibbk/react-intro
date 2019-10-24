@@ -6,7 +6,10 @@ import Footer from './components/Footer';
 import './App.css';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
+
+
 library.add(fab)
+
 
 
 class App extends Component {

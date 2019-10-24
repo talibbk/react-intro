@@ -57,7 +57,7 @@ const useStyles = makeStyles(theme => ({
                             alt="solace"
                             height="250"
                             image="/img/gym.jpg"
-                            title="Contemplative Reptile"
+                            title="BLOWS MMA"
                             />
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="h2">
@@ -79,7 +79,7 @@ const useStyles = makeStyles(theme => ({
                             alt="dont mention my face"
                             height="250"
                             image="/img/bike.jpg"
-                            title="Contemplative Reptile"
+                            title="Bike"
                             />
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="h2">
@@ -108,7 +108,7 @@ const useStyles = makeStyles(theme => ({
                                     Anime
                                 </Typography>
                                 <Typography variant="body2" component="p">
-                                    Exploring your hidden geek.
+                                    Exploring inner geek.
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
