@@ -54,7 +54,7 @@ const useStyles = makeStyles(theme => ({
                         <CardActionArea>
                             <CardMedia
                             component="img"
-                            alt="Contemplative Reptile"
+                            alt="solace"
                             height="250"
                             image="/img/gym.jpg"
                             title="Contemplative Reptile"
@@ -63,8 +63,8 @@ const useStyles = makeStyles(theme => ({
                                 <Typography gutterBottom variant="h5" component="h2">
                                     Gym
                                 </Typography>
-                                <Typography variant="body2" color="textSecondary" component="p">
-                                    Harder,Faster,Stronger!
+                                <Typography variant="body2" component="p">
+                                    Getting stronger everyday!
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
@@ -76,7 +76,7 @@ const useStyles = makeStyles(theme => ({
                         <CardActionArea>
                             <CardMedia
                             component="img"
-                            alt="Contemplative Reptile"
+                            alt="dont mention my face"
                             height="250"
                             image="/img/bike.jpg"
                             title="Contemplative Reptile"
@@ -85,7 +85,7 @@ const useStyles = makeStyles(theme => ({
                                 <Typography gutterBottom variant="h5" component="h2">
                                     Bike
                                 </Typography>
-                                <Typography variant="body2" color="textSecondary" component="p">
+                                <Typography variant="body2" component="p">
                                     I love riding bike through country roads!
                                 </Typography>
                             </CardContent>
@@ -98,17 +98,17 @@ const useStyles = makeStyles(theme => ({
                         <CardActionArea>
                             <CardMedia
                             component="img"
-                            alt="Contemplative Reptile"
+                            alt="geek"
                             height="250"
                             image="/img/anime.jpg"
-                            title="Contemplative Reptile"
+                            title="geek"
                             />
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="h2">
                                     Anime
                                 </Typography>
-                                <Typography variant="body2" color="textSecondary" component="p">
-                                    Old habits die hard.
+                                <Typography variant="body2" component="p">
+                                    Exploring your hidden geek.
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
